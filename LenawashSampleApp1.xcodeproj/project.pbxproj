@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEB709161DF161F10072DC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB709151DF161F10072DC18 /* AppDelegate.swift */; };
+		FEB709181DF161F10072DC18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB709171DF161F10072DC18 /* ViewController.swift */; };
+		FEB7091B1DF161F10072DC18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB709191DF161F10072DC18 /* Main.storyboard */; };
+		FEB7091D1DF161F10072DC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB7091C1DF161F10072DC18 /* Assets.xcassets */; };
+		FEB709201DF161F10072DC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB7091E1DF161F10072DC18 /* LaunchScreen.storyboard */; };
+		FEB7092B1DF161F20072DC18 /* LenawashSampleApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7092A1DF161F20072DC18 /* LenawashSampleApp1Tests.swift */; };
+		FEB709361DF161F20072DC18 /* LenawashSampleApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB709351DF161F20072DC18 /* LenawashSampleApp1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEB709271DF161F20072DC18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB7090A1DF161F10072DC18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB709111DF161F10072DC18;
+			remoteInfo = LenawashSampleApp1;
+		};
+		FEB709321DF161F20072DC18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB7090A1DF161F10072DC18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB709111DF161F10072DC18;
+			remoteInfo = LenawashSampleApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEB709121DF161F10072DC18 /* LenawashSampleApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LenawashSampleApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB709151DF161F10072DC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEB709171DF161F10072DC18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEB7091A1DF161F10072DC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEB7091C1DF161F10072DC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB7091F1DF161F10072DC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEB709211DF161F10072DC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB709261DF161F20072DC18 /* LenawashSampleApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenawashSampleApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB7092A1DF161F20072DC18 /* LenawashSampleApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenawashSampleApp1Tests.swift; sourceTree = "<group>"; };
+		FEB7092C1DF161F20072DC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB709311DF161F20072DC18 /* LenawashSampleApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenawashSampleApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB709351DF161F20072DC18 /* LenawashSampleApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenawashSampleApp1UITests.swift; sourceTree = "<group>"; };
+		FEB709371DF161F20072DC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB7090F1DF161F10072DC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB709231DF161F20072DC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB7092E1DF161F20072DC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB709091DF161F10072DC18 = {
+			isa = PBXGroup;
+			children = (
+				FEB709141DF161F10072DC18 /* LenawashSampleApp1 */,
+				FEB709291DF161F20072DC18 /* LenawashSampleApp1Tests */,
+				FEB709341DF161F20072DC18 /* LenawashSampleApp1UITests */,
+				FEB709131DF161F10072DC18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB709131DF161F10072DC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB709121DF161F10072DC18 /* LenawashSampleApp1.app */,
+				FEB709261DF161F20072DC18 /* LenawashSampleApp1Tests.xctest */,
+				FEB709311DF161F20072DC18 /* LenawashSampleApp1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB709141DF161F10072DC18 /* LenawashSampleApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				FEB709151DF161F10072DC18 /* AppDelegate.swift */,
+				FEB709171DF161F10072DC18 /* ViewController.swift */,
+				FEB709191DF161F10072DC18 /* Main.storyboard */,
+				FEB7091C1DF161F10072DC18 /* Assets.xcassets */,
+				FEB7091E1DF161F10072DC18 /* LaunchScreen.storyboard */,
+				FEB709211DF161F10072DC18 /* Info.plist */,
+			);
+			path = LenawashSampleApp1;
+			sourceTree = "<group>";
+		};
+		FEB709291DF161F20072DC18 /* LenawashSampleApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7092A1DF161F20072DC18 /* LenawashSampleApp1Tests.swift */,
+				FEB7092C1DF161F20072DC18 /* Info.plist */,
+			);
+			path = LenawashSampleApp1Tests;
+			sourceTree = "<group>";
+		};
+		FEB709341DF161F20072DC18 /* LenawashSampleApp1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB709351DF161F20072DC18 /* LenawashSampleApp1UITests.swift */,
+				FEB709371DF161F20072DC18 /* Info.plist */,
+			);
+			path = LenawashSampleApp1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB709111DF161F10072DC18 /* LenawashSampleApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB7093A1DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1" */;
+			buildPhases = (
+				FEB7090E1DF161F10072DC18 /* Sources */,
+				FEB7090F1DF161F10072DC18 /* Frameworks */,
+				FEB709101DF161F10072DC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LenawashSampleApp1;
+			productName = LenawashSampleApp1;
+			productReference = FEB709121DF161F10072DC18 /* LenawashSampleApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB709251DF161F20072DC18 /* LenawashSampleApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB7093D1DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1Tests" */;
+			buildPhases = (
+				FEB709221DF161F20072DC18 /* Sources */,
+				FEB709231DF161F20072DC18 /* Frameworks */,
+				FEB709241DF161F20072DC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB709281DF161F20072DC18 /* PBXTargetDependency */,
+			);
+			name = LenawashSampleApp1Tests;
+			productName = LenawashSampleApp1Tests;
+			productReference = FEB709261DF161F20072DC18 /* LenawashSampleApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEB709301DF161F20072DC18 /* LenawashSampleApp1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB709401DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1UITests" */;
+			buildPhases = (
+				FEB7092D1DF161F20072DC18 /* Sources */,
+				FEB7092E1DF161F20072DC18 /* Frameworks */,
+				FEB7092F1DF161F20072DC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB709331DF161F20072DC18 /* PBXTargetDependency */,
+			);
+			name = LenawashSampleApp1UITests;
+			productName = LenawashSampleApp1UITests;
+			productReference = FEB709311DF161F20072DC18 /* LenawashSampleApp1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB7090A1DF161F10072DC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YukoLinh;
+				TargetAttributes = {
+					FEB709111DF161F10072DC18 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FEB709251DF161F20072DC18 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEB709111DF161F10072DC18;
+					};
+					FEB709301DF161F20072DC18 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEB709111DF161F10072DC18;
+					};
+				};
+			};
+			buildConfigurationList = FEB7090D1DF161F10072DC18 /* Build configuration list for PBXProject "LenawashSampleApp1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB709091DF161F10072DC18;
+			productRefGroup = FEB709131DF161F10072DC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB709111DF161F10072DC18 /* LenawashSampleApp1 */,
+				FEB709251DF161F20072DC18 /* LenawashSampleApp1Tests */,
+				FEB709301DF161F20072DC18 /* LenawashSampleApp1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB709101DF161F10072DC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB709201DF161F10072DC18 /* LaunchScreen.storyboard in Resources */,
+				FEB7091D1DF161F10072DC18 /* Assets.xcassets in Resources */,
+				FEB7091B1DF161F10072DC18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB709241DF161F20072DC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB7092F1DF161F20072DC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB7090E1DF161F10072DC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB709181DF161F10072DC18 /* ViewController.swift in Sources */,
+				FEB709161DF161F10072DC18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB709221DF161F20072DC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB7092B1DF161F20072DC18 /* LenawashSampleApp1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB7092D1DF161F20072DC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB709361DF161F20072DC18 /* LenawashSampleApp1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB709281DF161F20072DC18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB709111DF161F10072DC18 /* LenawashSampleApp1 */;
+			targetProxy = FEB709271DF161F20072DC18 /* PBXContainerItemProxy */;
+		};
+		FEB709331DF161F20072DC18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB709111DF161F10072DC18 /* LenawashSampleApp1 */;
+			targetProxy = FEB709321DF161F20072DC18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEB709191DF161F10072DC18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB7091A1DF161F10072DC18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEB7091E1DF161F10072DC18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB7091F1DF161F10072DC18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB709381DF161F20072DC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB709391DF161F20072DC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB7093B1DF161F20072DC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LenawashSampleApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FEB7093C1DF161F20072DC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LenawashSampleApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FEB7093E1DF161F20072DC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LenawashSampleApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LenawashSampleApp1.app/LenawashSampleApp1";
+			};
+			name = Debug;
+		};
+		FEB7093F1DF161F20072DC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LenawashSampleApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LenawashSampleApp1.app/LenawashSampleApp1";
+			};
+			name = Release;
+		};
+		FEB709411DF161F20072DC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LenawashSampleApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LenawashSampleApp1;
+			};
+			name = Debug;
+		};
+		FEB709421DF161F20072DC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LenawashSampleApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukolinh.LenawashSampleApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LenawashSampleApp1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB7090D1DF161F10072DC18 /* Build configuration list for PBXProject "LenawashSampleApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB709381DF161F20072DC18 /* Debug */,
+				FEB709391DF161F20072DC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB7093A1DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB7093B1DF161F20072DC18 /* Debug */,
+				FEB7093C1DF161F20072DC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEB7093D1DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB7093E1DF161F20072DC18 /* Debug */,
+				FEB7093F1DF161F20072DC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEB709401DF161F20072DC18 /* Build configuration list for PBXNativeTarget "LenawashSampleApp1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB709411DF161F20072DC18 /* Debug */,
+				FEB709421DF161F20072DC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB7090A1DF161F10072DC18 /* Project object */;
+}
